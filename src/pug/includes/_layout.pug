@@ -1,0 +1,13 @@
+include _config
+doctype html
+block vars
+html(lang=`${config.lang}`)
+  head
+    include _head
+
+  body(class=key)
+    .l_contents
+      include ../components/_header
+      include ../components/_nav
+      block contents
+    include ../components/_footer

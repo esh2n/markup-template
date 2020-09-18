@@ -1,0 +1,11 @@
+header
+  .header_logo
+    if key=='top'
+      h1
+        a(href=pages.top.url)
+          img(src=image_path+"/shared/logo.png" alt=pages.top.name)
+        span This is header
+    else
+      p
+        a(href=pages.top.url)
+          img(src=image_path+"/shared/logo.png" alt=pages.top.name)

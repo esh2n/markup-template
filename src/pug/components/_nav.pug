@@ -1,0 +1,18 @@
+nav
+  ul
+    li
+      a(href=pages.content_a.url)
+        p content_a
+    li
+      a(href=pages.content_b.url)
+        p content_b
+    li
+      a(href=pages.content_c.url)
+        p content_c
+    if content_d_state=="public"
+      li
+        a(href=pages.content_d.url)
+          p content_d
+    else if content_d_state=="comingsoon"
+      li
+        p #{content_d_state}
