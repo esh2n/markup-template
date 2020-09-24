@@ -6,8 +6,11 @@ html(lang=`${config.lang}`)
     include _head
 
   body(class=key)
-    .l_contents
-      include ../components/_header
-      include ../components/_nav
+    header.l-header
+      //- for header absolute
+      .l-header__abs
+        include ../components/_header
+    .l-contents
       block contents
-    include ../components/_footer
+    footer.l-footer
+      include ../components/_footer

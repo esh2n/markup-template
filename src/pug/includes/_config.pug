@@ -1,57 +1,59 @@
+//- path
 - var image_path = 'assets/images'
 - var css_path = 'assets/css'
 - var js_path = 'assets/js'
 - var domain = 'https://example.com/'
-- var content_d_state = "comingsoon"
+- var source = 'https://github.com/shunyaendoh1215/markup-template'
 
+//- config
 -
   var config = {
   title: "Document",
   lang: "jp",
-  isResetCss: true,
+  author: "shunya endoh",
   }
 
-
+//- navbar
 -
-  var pages = {
-    top : {
+  var pages = [
+    {
       url : 'index.html',
-      name : 'トップページ',
-      title : 'トップページ',
+      name : 'TOP',
+      title : 'TOP',
       description : 'トップページです',
       keywords : 'トップページ',
-      image : 'assets/images/ogp.jpg'
+      image : 'assets/images/'
     },
-    content_a : {
+    {
       url : 'pages/content_a.html',
-      name : 'コンテントA',
-      title : 'コンテントA',
-      description : 'コンテントAです',
-      keywords : 'コンテントA',
-      image : 'assets/images/ogp.jpg'
+      name : 'PRODUCT',
+      title : 'PRODUCT',
+      description : '',
+      keywords : '',
+      image : 'assets/images/'
     },
-    content_b : {
+    {
       url : 'pages/content_b.html',
-      name : 'コンテントB',
-      title : 'コンテントB',
-      description : 'コンテントBです',
-      keywords : 'コンテントB',
-      image : 'assets/images/ogp.jpg'
+      name : 'ABOUT',
+      title : 'ABOUT',
+      description : '',
+      keywords : '',
+      image : 'assets/images/'
     },
-    content_c : {
+    {
       url : 'pages/content_c.html',
-      name : 'コンテントC',
-      title : 'コンテントC',
-      description : 'コンテントCです',
-      keywords : 'コンテントC',
-      image : 'assets/images/ogp.jpg'
+      name : 'NEWS',
+      title : 'NEWS',
+      description : '',
+      keywords : '',
+      image : 'assets/images/'
     },
-    content_d : {
+    {
       url : 'pages/content_d.html',
-      name : 'コンテントD',
-      title : 'コンテントD',
-      description : 'コンテントDです',
-      keywords : 'コンテントD',
-      image : 'assets/images/ogp.jpg'
+      name : 'CONTACT',
+      title : 'CONTACT',
+      description : '',
+      keywords : '',
+      image : 'assets/images/'
     }
-  }
+  ]

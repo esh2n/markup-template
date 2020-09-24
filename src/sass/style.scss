@@ -1,3 +1,5 @@
-header {
-  color: red;
-}
+@import "foundation/_foundation.scss";
+@import "layout/_layout.scss";
+@import "component/_component.scss";
+@import "project/_project.scss";
+@import "utility/_utility.scss";
